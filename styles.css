@@ -1,0 +1,120 @@
+.p1{
+    font-weight: bold;
+}
+.img-ww1{
+    height: 300px;
+    width: 200px;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.box{
+    border: 2px solid #000000;
+    float: right;
+    padding: 10px;
+    max-width: 300px;
+    text-align: center;
+}
+.box img{
+    width: 280px;
+  height: auto;
+  display: block;
+}
+
+.full{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    min-height: 100vh;
+}
+.side-photo{
+    width: 16%;
+    height: 100vh;
+    position: fixed;
+    background-image: url(cenetr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0%;
+    z-index: 1;
+}
+.left_photo{
+    left: 0%;
+    background-position: left center;
+}
+.right_photo{
+    right: 0%;
+    background-position: right center;
+}
+.ww1-text{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.line{
+    height: 2px;
+    border: none;
+    background-color: #000000;
+}   
+.p{
+    padding: 1px;
+}
+.citata{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+    font-family: Arial;
+}
+.wiki:hover{
+    color: #2563eb;
+}
+.wiki{
+    color: black;
+}
+iframe {
+  position: fixed;
+  bottom: 20px; 
+  right: 20px;  
+  width: 300px;
+  z-index: 1000;  
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 900px) {
+  .side-photo {
+    display: none;
+  }
+
+  .ww1-text {
+    max-width: 100%;
+    padding: 15px; 
+  }
+}
+.video-container {
+  max-width: 650px;
+  margin: 20px auto;
+}
+.minus-btn {
+  display: block;
+  margin-left: auto;
+  margin-bottom: 6px;
+  width: 34px;
+  height: 34px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: fixed; /* Фіксує кнопку відносно вікна браузера */
+  top: 15px;       /* Відступ зверху */
+  left: 15px;      /* Відступ зліва */
+  z-index: 1000;
+}
+.minus-btn:hover {
+  background-color: #d63031;
+}
+.hidden {
+  display: none;
+}
